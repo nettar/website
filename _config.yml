@@ -5,8 +5,8 @@ baseurl:    /
 
 
 safe: true
-source: git@github.com:phil-monroe/website.git
-destination: <the build dir>
+source: .
+destination: _site
 lsi: false
 pygments: true
 destination: ./_site
