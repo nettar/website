@@ -1,0 +1,27 @@
+---
+layout: post
+title: Linear Systems and Audio
+tags:
+- Audio
+- Graduate school
+status: trash
+type: post
+published: false
+meta:
+  _edit_last: '17761074'
+---
+I had a nice walk home from Kemper Hall today and started to think about how audio signal processing relates to my Linear Systems and Signals class. The more I thought about it, the more dumb I felt. Audio signal processing is, from what I can tell, systems and control theory. Feel free to call me out on this since I lack experience, but I think I am right.
+
+So lets think of a gain plugin that you might use on a mono channel in some DAW. You have the slider or knob for the gain value and the current sample as inputs. After some number crunching, you have an output sample to mixed with another channel. So here is how I think the "gain system" would look in terms of my linear systems class.
+
+Let's start with the basics
+
+$latex y = Ax $
+
+Where <strong>y </strong>is the output sample, <strong>x</strong> is the inputs and <strong>A</strong> is the system operating on the inputs.
+
+$latex x = begin{bmatrix} x_1 \ x_2 end{bmatrix}$
+
+Where <strong>x1</strong> is the gain factor and <strong>x2</strong> is the input signal.
+
+$latex A = begin{bmatrix} x_1 \ x_2 end{bmatrix}$

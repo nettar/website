@@ -1,0 +1,10 @@
+---
+layout: post
+title: Rails autoload_paths are dangerous (for namespaces)
+tags: []
+status: draft
+type: post
+published: false
+meta: {}
+---
+<p>I learned a valuable Rails lesson today at work when dealing with autoload_paths. </p><p> </p><p>&lt;code&gt;</p><p>config.autoload_paths += Dir[Rails.root.join('app', 'models', '{**}')]</p><p>&lt;</p>
